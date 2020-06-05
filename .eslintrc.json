@@ -1,16 +1,4 @@
 {
-  "env": {
-    "browser": true,
-    "es6": true
-  },
-  "extends": ["react-app", "prettier"],
-
-  "parserOptions": {
-    "ecmaVersion": 11,
-    "sourceType": "module"
-  },
-  "plugins": ["react", "prettier"],
-  "rules": {
-    "prettier/prettier": "error"
-  }
+  "extends": ["react-app", "plugin:prettier/recommended"],
+  "ignorePatterns": "node_modules"
 }
